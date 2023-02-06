@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 def minOperations(n):
     # if it is composite the return true
     # uncompleted
