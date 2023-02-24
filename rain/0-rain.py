@@ -3,7 +3,8 @@
 
 
 def rain(walls):
-    """Calculate how many square units of water will be retained after it rains"""
+    """Calculate how many square units of water
+    will be retained after it rains"""
     if len(walls) == 0:
         return 0
     water = 0
