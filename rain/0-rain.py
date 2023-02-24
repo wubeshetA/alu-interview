@@ -10,6 +10,7 @@ Return: Integer indicating total amount of rainwater retained.
 Assume that the ends of the list (before index 0 and after index walls[-1]) are not walls, meaning they will not retain water.
 If the list is empty return 0."""
 
+
 def rain(walls):
     """Calculate how many square units of water will be retained after it rains"""
     if len(walls) == 0:
@@ -24,6 +25,7 @@ def rain(walls):
             right = max(right, walls[j])
         water += min(left, right) - walls[i]
     return water
+
 
 if __name__ == "__main__":
     walls = [0, 1, 0, 2, 0, 3, 0, 4]
